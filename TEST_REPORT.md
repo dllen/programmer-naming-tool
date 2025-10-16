@@ -174,7 +174,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm ci
+      - run: npm install
       - run: npm test -- --coverage
 ```
 
